@@ -870,7 +870,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="计算库类型 &gt;">
+                                <state key="normal" title="Calculation library type &gt;">
                                     <color key="titleColor" systemColor="systemBlueColor"/>
                                 </state>
                                 <connections>
@@ -1202,7 +1202,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpY-o3-lPW">
                                 <rect key="frame" x="167.66666666666666" y="409" width="58" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="开始"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start"/>
                                 <connections>
                                     <action selector="startBtnClick:" destination="aTV-Fm-OBb" eventType="touchUpInside" id="B7H-WO-Gpq"/>
                                 </connections>

@@ -174,7 +174,7 @@ class CommonTool {
         }
         
         if !isPlus {
-            print("负数")
+            print("Negative number")
             return 0
         }
         

@@ -153,12 +153,12 @@ class CalcuteInfoViewController: UIViewController {
       
         if self.selectType == .calcuteType4DC {
             
-            self.calcuteTypeBtn.setTitle("直流算法", for: .normal)
+            self.calcuteTypeBtn.setTitle("DC algorithm", for: .normal)
             self.calcuteTypeBtn.isUserInteractionEnabled = false
             
         } else if self.selectType == .calcuteType4AC {
             
-            deviceCalcuteTypeArray = [("交流算法",PPDeviceCalcuteType.alternate), ("默认计算库直接用合泰返回的体脂率",PPDeviceCalcuteType.alternateNormal), ("4电极交流(新)-跟随方案商，最新版本",PPDeviceCalcuteType.alternate4_0),("4电极双频-跟随方案商，最新版本",PPDeviceCalcuteType.alternate4_1)]
+            deviceCalcuteTypeArray = [("AC algorithm",PPDeviceCalcuteType.alternate), ("Default library, uses the body fat rate returned by Holtek",PPDeviceCalcuteType.alternateNormal), ("4-electrode AC (new), follows the solution provider, latest version",PPDeviceCalcuteType.alternate4_0),("4-electrode dual-frequency, follows the solution provider, latest version",PPDeviceCalcuteType.alternate4_1)]
             
             let title = deviceCalcuteTypeArray.first!.0 + " >"
             
@@ -166,7 +166,7 @@ class CalcuteInfoViewController: UIViewController {
             
         } else {
             
-            deviceCalcuteTypeArray = [("8电极交流算法 CF577 bhProduct = 1",PPDeviceCalcuteType.alternate8), ("8电极算法CF597 bhProduct = 4",PPDeviceCalcuteType.alternate8_0), ("8电极算法CF586 bhProduct = 3",PPDeviceCalcuteType.alternate8_1),("8电极算法，bhProduct =7--CF610",PPDeviceCalcuteType.alternate8_2),("8电极算法，差异算法 bhProduct = 5",PPDeviceCalcuteType.alternate8_3),("8电极算法，bhProduct =6--CF597_N",PPDeviceCalcuteType.alternate8_4),("8电极算法，bhProduct =6--CF597 平滑算法",PPDeviceCalcuteType.alternate8_5)]
+            deviceCalcuteTypeArray = [("8-electrode AC algorithm CF577 bhProduct = 1",PPDeviceCalcuteType.alternate8), ("8-electrode algorithm CF597 bhProduct = 4",PPDeviceCalcuteType.alternate8_0), ("8-electrode algorithm CF586 bhProduct = 3",PPDeviceCalcuteType.alternate8_1),("8-electrode algorithm, bhProduct =7--CF610",PPDeviceCalcuteType.alternate8_2),("8-electrode algorithm, differential algorithm bhProduct = 5",PPDeviceCalcuteType.alternate8_3),("8-electrode algorithm, bhProduct =6--CF597_N",PPDeviceCalcuteType.alternate8_4),("8-electrode algorithm, bhProduct =6--CF597 smoothing algorithm",PPDeviceCalcuteType.alternate8_5)]
             
             let title = deviceCalcuteTypeArray.first!.0 + " >"
             

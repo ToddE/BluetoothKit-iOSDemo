@@ -138,7 +138,7 @@ class DFUViewController: UIViewController {
         
         if self.selectPath.count <= 0{
             
-            self.addConsoleLog(ss: "请选择文件")
+            self.addConsoleLog(ss: "Please select a file")
 
             return
         }
@@ -244,7 +244,7 @@ class DFUViewController: UIViewController {
                                     
                                     if (isSuccess && progress == 1){
                                         
-                                        self.addConsoleLog(ss: "ota完成")
+                                        self.addConsoleLog(ss: "OTA complete")
 
                                     }
                                     
@@ -258,7 +258,7 @@ class DFUViewController: UIViewController {
                                     
                                     if (progress == -1 && !isSuccess){
                                         
-                                        self.addConsoleLog(ss: "ota失败")
+                                        self.addConsoleLog(ss: "OTA failed")
 
                              
                                         
@@ -325,10 +325,10 @@ extension DFUViewController{
 //        self.XM_DFUUnzipFilePath = destinationPath + "/" + path.replacingOccurrences(of: ".zip", with: "")
 
         if success {
-            print("解压成功！")
+            print("Unzip succeeded!")
             return destinationPath
         } else {
-            print("解压失败！")
+            print("Unzip failed!")
             return nil
         }
     }
